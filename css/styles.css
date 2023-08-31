@@ -35,7 +35,7 @@ a {
   color: var(--c-prymary-brand);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -80,7 +80,7 @@ a {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07em;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -111,7 +111,7 @@ a {
 }
 
 .section-team {
-  background-color: var(--c-background-white);
+  background-color: var(--c-background-light);
 }
 
 .advantage-title {
@@ -138,6 +138,9 @@ a {
 }
 .section-dark {
   background-color: var(--c-background-hero);
+}
+.photofon {
+  background-color: var(--c-background-white);
 }
 .logo-footer {
   font-family: Raleway, sans-serif;
