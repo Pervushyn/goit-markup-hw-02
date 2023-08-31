@@ -11,6 +11,7 @@
   --c-background-white: #fff;
   --c-background-light: #f4f4fd;
   --c-background-ocean: #404bbf;
+  --c-background-prymary-brand: #4d5ae5;
   --c-background-darck: #1e1823;
   --c-background-modal: #fcfcfc;
 }
@@ -35,7 +36,7 @@ a {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17em;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -80,18 +81,23 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07em;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
   color: var(--c-white);
-  background-color: var(--c-prymary-brand);
+  background-color: var(--c-background-prymary-brand);
   cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-weight: 500;
 }
-.hero-button:active {
-  background-color: var(--c-pressed-state);
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--c-background-ocean);
 }
 /*section*/
 
@@ -111,12 +117,16 @@ a {
 }
 
 .advantage-title {
+  color: var(--c-background-hero);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
+  letter-spacing: 0.02em;
 }
 .advantage-text {
   color: var(--c-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .title-h2 {
@@ -127,12 +137,20 @@ a {
 .section-dark {
   background-color: var(--c-background-hero);
 }
-.logo-w {
+.logo-footer {
+  font-family: Raleway, sans-serif;
   color: var(--c-prymary-brand);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.logo-s {
+.logo-accent-footer {
   color: var(--c-cloud);
 }
 .footer-text {
   color: var(--c-cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
