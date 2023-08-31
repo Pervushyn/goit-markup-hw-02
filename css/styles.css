@@ -1,0 +1,87 @@
+:root {
+  --c-prymary-brand: #4d5ae5;
+  --c-pressed-state: #404bbf;
+  --c-dark: #2e2f42;
+  --c-success: #31d0aa;
+  --c-text: #434455;
+  --c-white: #fff;
+  --c-subtle-text: #2e2f42;
+  --c-background-accent: #e7e9fc;
+  --c-background-hero: #2e2f42;
+  --c-background-white: #fff;
+  --c-background-ocean: #404BBF;
+  --c-background-darck: #1e1823;
+  --c-background-modal: #fcfcfc;
+}
+
+body {
+  font-family: Roboto, Raleway, Helvetica, Arial, sans-serif;
+  color: var(--c-dark);
+  background-color: var(--c-background-white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+/*header*/
+
+.link-logo {
+  font-family: Raleway, sans-serif;
+  color: var(--c-dark);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--c-prymary-brand);
+}
+
+.nav-link {
+  color: var(--c-dark);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  text-decoration: none;
+}
+.nav-link:hover {
+ color: var(--c-pressed-state);
+}
+
+.address-link {
+  color: var(--c-text);
+  text-decoration: none;
+  font-style: normal;
+}
+.address-link:hover {
+  color: var(--c-pressed-state);
+}
+
+/*Main*/
+.hero-title {
+  color: var(--c-white);
+  background-color: var(--c-background-hero);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07; 
+}
+ 
+.hero-button {
+  color: var(--c-white);
+  background-color: var(--c-background-hero);
+}
+.hero-button:active {
+  background-color: var(--c-background-ocean);
+}
