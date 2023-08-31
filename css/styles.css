@@ -2,6 +2,7 @@
   --c-prymary-brand: #4d5ae5;
   --c-pressed-state: #404bbf;
   --c-dark: #2e2f42;
+  --c-cloud: #f4f4fd;
   --c-success: #31d0aa;
   --c-text: #434455;
   --c-white: #fff;
@@ -9,7 +10,8 @@
   --c-background-accent: #e7e9fc;
   --c-background-hero: #2e2f42;
   --c-background-white: #fff;
-  --c-background-ocean: #404BBF;
+  --c-background-light: #f4f4fd;
+  --c-background-ocean: #404bbf;
   --c-background-darck: #1e1823;
   --c-background-modal: #fcfcfc;
 }
@@ -24,9 +26,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.ul {
+ul {
   list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
 
 /*header*/
@@ -38,7 +42,7 @@ body {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .logo-accent {
@@ -48,15 +52,13 @@ body {
 .nav-link {
   color: var(--c-dark);
   font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; 
-  letter-spacing: 0.02em; 
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .nav-link:hover {
- color: var(--c-pressed-state);
+  color: var(--c-pressed-state);
 }
 
 .address-link {
@@ -69,19 +71,68 @@ body {
 }
 
 /*Main*/
+.section-hero {
+  background-color: var(--c-background-hero);
+}
 .hero-title {
   color: var(--c-white);
-  background-color: var(--c-background-hero);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07; 
+  line-height: 1.07;
 }
- 
+
 .hero-button {
   color: var(--c-white);
-  background-color: var(--c-background-hero);
+  background-color: var(--c-prymary-brand);
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
 }
 .hero-button:active {
-  background-color: var(--c-background-ocean);
+  background-color: var(--c-pressed-state);
+}
+/*section*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.section-our-team {
+  background-color: var(--c-background-light);
+}
+
+.advantage-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.advantage-text {
+  color: var(--c-text);
+}
+
+.title-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+}
+.section-dark {
+  background-color: var(--c-background-hero);
+}
+.logo-w {
+  color: var(--c-prymary-brand);
+}
+.logo-s {
+  color: var(--c-cloud);
+}
+.footer-text {
+  color: var(--c-cloud);
 }
