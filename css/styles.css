@@ -20,11 +20,6 @@ body {
   font-family: Roboto, Raleway, Helvetica, Arial, sans-serif;
   color: var(--c-dark);
   background-color: var(--c-background-white);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 ul {
   list-style-type: none;
@@ -69,7 +64,11 @@ a {
 .address-link:hover {
   color: var(--c-pressed-state);
 }
-
+.tel-link {
+  color: var(--c-text);
+  text-decoration: none;
+  font-style: normal;
+}
 /*Main*/
 .section-hero {
   background-color: var(--c-background-hero);
@@ -79,7 +78,7 @@ a {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.07em;
 }
 
 .hero-button {
