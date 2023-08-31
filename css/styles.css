@@ -68,8 +68,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-link:hover,
-.address-link:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: var(--c-pressed-state);
 }
 
