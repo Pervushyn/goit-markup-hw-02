@@ -110,8 +110,8 @@ a {
   clip: rect(0 0 0 0);
 }
 
-.section-our-team {
-  background-color: var(--c-background-light);
+.section-team {
+  background-color: var(--c-background-white);
 }
 
 .advantage-title {
