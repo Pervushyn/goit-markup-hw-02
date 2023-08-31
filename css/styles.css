@@ -6,7 +6,6 @@
   --c-success: #31d0aa;
   --c-text: #434455;
   --c-white: #fff;
-  --c-subtle-text: #2e2f42;
   --c-background-accent: #e7e9fc;
   --c-background-hero: #2e2f42;
   --c-background-white: #fff;
@@ -17,8 +16,8 @@
 }
 
 body {
-  font-family: Roboto, Raleway, Helvetica, Arial, sans-serif;
-  color: var(--c-dark);
+  font-family: Roboto, sans-serif;
+  color: var(--c-text);
   background-color: var(--c-background-white);
 }
 ul {
@@ -32,16 +31,16 @@ a {
 
 .link-logo {
   font-family: Raleway, sans-serif;
-  color: var(--c-dark);
+  color: var(--c-prymary-brand);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.17em;
+  letter-spacing: 0.03;
   text-transform: uppercase;
 }
 
 .logo-accent {
-  color: var(--c-prymary-brand);
+  color: var(--c-dark);
 }
 
 .nav-link {
@@ -49,26 +48,28 @@ a {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--c-pressed-state);
 }
 
 .address-link {
   color: var(--c-text);
   text-decoration: none;
+  font-size: 16px;
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
   color: var(--c-pressed-state);
 }
-.tel-link {
-  color: var(--c-text);
-  text-decoration: none;
-  font-style: normal;
-}
+
 /*Main*/
 .section-hero {
   background-color: var(--c-background-hero);
@@ -112,7 +113,7 @@ a {
 .advantage-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.2em;
 }
 .advantage-text {
   color: var(--c-text);
@@ -121,7 +122,7 @@ a {
 .title-h2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.11em;
 }
 .section-dark {
   background-color: var(--c-background-hero);
